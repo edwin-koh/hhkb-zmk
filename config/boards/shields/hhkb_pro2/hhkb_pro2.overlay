@@ -24,8 +24,8 @@
     pm_wake_sensor {
         compatible = "zmk,pm-wake-sensor";
         status = "okay";
-        power-gpios = <&hhkb_pro2_connector 19 GPIO_ACTIVE_HIGH>;
-        sensor-gpios = <&hhkb_pro2_connector 10 (GPIO_ACTIVE_LOW|GPIO_PULL_DOWN)>;
+        power-gpios = <&pro_micro_d 19 GPIO_ACTIVE_HIGH>;
+        sensor-gpios = <&pro_micro_d 10 (GPIO_ACTIVE_LOW|GPIO_PULL_DOWN)>;
     };
 
     default_transform: keymap_transform_0 {
